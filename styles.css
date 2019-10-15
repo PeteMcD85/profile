@@ -1,0 +1,100 @@
+html {
+  box-sizing: border-box;
+  background: #212f3c;
+  color: white;
+  font-family: "Times New Roman", Times, serif;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+/* ++++++++++ HEADER */
+
+img {
+  width: 15em;
+  height: 15em;
+  border-radius: 40%;
+  margin: 1em;
+}
+
+.leftside {
+  max-width: 400px;
+  margin-left: 75px;
+  text-align: center;
+}
+
+p {
+  margin: 1px;
+  font-size: px;
+}
+
+h2,
+h3 {
+  color: #5dade2;
+}
+
+.icon-links a i {
+  color: white;
+  font-size: 5em;
+  margin: 15px 10px;
+}
+
+.icon-links a:hover i {
+  color: red;
+  font-size: 6em;
+  margin: 15px 10px;
+}
+
+/* body */
+body {
+  display: flex;
+}
+
+h3 {
+  font-size: 40px;
+}
+
+.rightside {
+  margin-left: 100px;
+}
+
+ul {
+  margin: auto;
+}
+
+h4 {
+  font-size: 25px;
+}
+
+.title {
+  display: flex;
+}
+
+.fa-gem {
+  color: red;
+  margin: auto;
+  margin-left: 10px;
+}
+
+.fa-html5,
+.fa-css3,
+.fa-js {
+  color: #5dade2;
+  margin: auto;
+  margin-left: 10px;
+}
+
+li a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+}
+
+li a:hover {
+  text-decoration: none;
+  color: red;
+  font-size: 25px;
+}
